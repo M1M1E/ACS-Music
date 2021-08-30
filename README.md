@@ -1,7 +1,7 @@
 # ACS Music
 
 ## Durée du projet
-**2 semaines avec présentation du projet l'après-midi du vendredi 3 septembre**
+**2 semaines avec présentation du projet l'après-midi du vendredi 10 septembre**
 
 ## Vue d'ensemble
 Il s’agit d’une application Web mobile permettant d’écouter de la musique en ligne depuis son compte.
