@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/songs.css">
+    <script src="assets/js/api-music.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Songs /</h1>
+    </header>
+    <main>
+        <section id="sect-search">
+            <label for="bar-search">Search</label>
+            <input type="text" name="bar-search" id="bar-search">
+            <div id="flex-dot">
+                <div id="dot"></div>
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div class="scroller" id="id_scroll">
+                <!--
+                ...cette div reçoit les images des albums d'un artiste en dynamique...
+                -->       
+            </div>
+                        <!--2 rectangles background des albums-->
+          
+                        <div id="whiteRectangle"></div>
+                        <div id="whiteRectangle2"></div>
+        </section>
+        <section>
+            <h4>Recently played</h4>
+            <div id="div-8">
+                <!--
+                ...cette div reçoit en dynamique les deux blocs d'images 
+                ...des 8 derniers albums écoutés récemment...
+                -->
+                </div>
+            </div>
+        </section>
+
+        <img id ="dotsBackground" src="assets/images/dotsv2.svg"><!--dots en background-->
+        
+    </main>
+    <footer>
+        <nav>
+            <a href="Index.html"><img src="./assets/icons/home.svg" alt="Maison"></a>
+            <a href="#"></a><img src="./assets/icons/headphones.svg" alt="Casque de musique"></a>
+            <a href="#"></a><img src="./assets/icons/heart.svg" alt="Coeur"></a>
+            <a href="#"></a><img src="./assets/icons/search.svg" alt="Loupe"></a>
+        </nav>
+    </footer>
+</body>
+</html>

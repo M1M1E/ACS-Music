@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="./assets/css/style-player.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+
+    
+
+    <title>Player</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div id="purpleSquare"></div>
+      
+        <div class="music-container">
+
+          <div id="cover-box">
+            <img src="./assets/images/zengarden.jpg" alt="cover-image" id="cover" />
+          </div>
+
+        
+
+              <div id="music-box">
+
+                <audio id="disc"></audio>
+
+                 <div id="music-info">
+
+                    <h2 id="title"></h2>
+                    <img id="back" src="./assets/icons/back.svg" alt="go back">
+                    <p id="albumName"></p>
+                    <div id="progress-container">
+                    <div id="progress"></div>
+                    
+                  </div>
+
+                <div id="timer-bar">
+                  <span id="timer">0:00</span>
+                  <span id="duration"></span>
+                </div>
+          </div>
+
+          <div id="control-box">
+              <img id="repeat" src="./assets/icons/repeat.svg" alt="repeat">
+              <img id="backward" src="./assets/icons/fast-forward-left.svg" alt="backward">
+              <img id="play" src="./assets/icons/play.svg" alt="play">
+              <img id="pause" src="./assets/icons/pause.svg" alt="pause">
+              <img id="forward" src="./assets/icons/fast-forward.svg" alt="forward">
+              <img id="shuffle" src="./assets/icons/shuffle.svg" alt="shuffle">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <footer>
+      <nav>
+          <a href="#"><img class="icones" src="./assets/icons/home.svg" alt="home"></a>
+          <a href="#"></a><img class="icones" src="./assets/icons/headphones.svg" alt="headphones"></a>
+          <a href="#"></a><img class="icones" src="./assets/icons/heart.svg" alt="heart"></a>
+          <a href="#"></a><img class="icones" src="./assets/icons/search.svg" alt="search"></a>
+      </nav>
+  </footer>
+
+
+
+
+    <script src="./assets/js/script-player.js"></script>
+  </body>
+
+
+
+</html>
