@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202.067" height="200.049" viewBox="0 0 202.067 200.049">
+  <g id="Groupe_39" data-name="Groupe 39" transform="translate(-48.843 -11.667)">
+    <path id="Tracé_6489" data-name="Tracé 6489" d="M183.606,59.957C156.5,29.4,121.31,41.6,107.708,75.508c-4.354,8.647-4.554,18.519-8.908,27.165-5.135,9.772-14.766,16.412-19.119,25.059-6.359,13.925-2.948,32.984,8.627,42.715,29.895,24.155,60.65-12.822,89.582-16.033,20.525-.723,35.13,9.448,44.72-13.9,8.708-17.295.36-36.455-8.086-50.679-7.765-10.413-17.435-20.484-29.454-27.185" transform="translate(197.987 292.872) rotate(-141)" fill="#48005d" opacity="0.8"/>
+    <path id="Tracé_36" data-name="Tracé 36" d="M178.015,59.044c-25.691-28.96-59.043-17.4-71.935,14.739-4.127,8.2-4.316,17.552-8.443,25.747-4.867,9.262-14,15.555-18.121,23.751-6.027,13.2-2.794,31.262,8.177,40.485,28.334,22.894,57.484-12.153,84.905-15.2,19.453-.685,33.3,8.955,42.385-13.179,8.253-16.392.341-34.552-7.664-48.033-7.36-9.869-16.525-19.415-27.916-25.766" fill="#a80065" opacity="0.8"/>
+    <text id="ACS_" data-name="ACS " transform="translate(94 127.125)" fill="#dedde2" font-size="46.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">ACS</tspan><tspan y="0" font-family="MyriadPro-Regular, Myriad Pro" font-weight="400"> </tspan></text>
+    <text id="music" transform="translate(93.519 144.692)" fill="#a4b0b4" font-size="25" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">music</tspan></text>
+    <path id="Tracé_37" data-name="Tracé 37" d="M285.3,110.828A4.828,4.828,0,1,1,280.469,106,4.828,4.828,0,0,1,285.3,110.828Z" transform="translate(-109.297 29.348)" fill="#2ecbb8"/>
+  </g>
+</svg>

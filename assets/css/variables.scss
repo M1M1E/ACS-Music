@@ -1,0 +1,83 @@
+
+///////////////////////V2 Dark version
+
+
+
+//background : index, signin, sign up 
+
+$radialGradient: radial-gradient(#25016E, #18003B);
+
+//inputs signin, signup
+
+$regularInput: #FFFFFF;
+$validInput: #51E62E;
+$errorInput: #FF0077;
+$errorText: #D2A800;
+$buttonForm: #0184AE;
+
+// search page
+//opacité 0.25 pour les dots en background
+//première div sous albums : white opacité 0.10
+//seconde div sous albums : white opacité 0.8
+$purpleGradient: linear-gradient(0.50turn, #140141, #4B3AA2, #F1ECF5);
+$dotSearch: #2ECBB8;
+//radius bouton recently played : 15, 0, 15, 0  + $buttonForm: #0184AE; + height: 35px
+
+
+//Album name
+$verticalLine: #503FA4;
+$tracksColor: #482D7D;
+$time: #4E464B; //opacité 0.69
+$topGradient: linear-gradient(0.50turn, #0D0229, #3B1282, #F1ECF5);
+//radius bouton onplay : 15, 0, 15, 0  + $buttonForm: #0184AE;  + height: 25px
+//opacité dots : 0.41
+
+
+
+//player
+$rectangle: #1F0156;
+$backgroundPlayer: #A07EBC; //opacité 0.15
+//opacité dots : 0.41
+
+
+
+//nav
+$navGradient: linear-gradient(0.50turn, #270049, #A07EBC, #FFFFFF); //opacité 0.14
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////OLD
+
+
+//color:
+$strong_green : #00c193;
+$light_green : #63ffd4;
+$strong_grey : #b9b9b9;
+$light_grey : #f1f1f1;
+$purple : #5f24ed;
+$red : #ff7272;
+$player_grey : #4c4c4d;
+$input_validation : #b3ff2d;
+// dégradé
+$nav_gradiant: linear-gradient(0.25turn,#ffffff, #e7e4ff);
+
+// Font:
+$font_family : 'Roboto', sans-serif;
+$h1 : 1.5em;
+$h2 : 1.5em;
+$h3 : 1.5em;
+$h4 : 0.9em;
+$btn : 1em;
+$link_account : 0.9em;
+$label_input : 0.9em;
+$error : 0.8em;
+$player_time : 0.9em;
+$ul : 1.1em;
+$p_text : 1em;

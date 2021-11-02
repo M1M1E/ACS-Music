@@ -1,0 +1,161 @@
+@import 'nav';
+@import 'variables';
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(160, 126, 188, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.container {
+  width: 50rem;
+}
+
+.heading {
+  color: #000;
+  text-align: center;
+  text-shadow: 2px 1px #848484;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.music-container {
+  
+  padding: 1rem 2rem;
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cover-box {
+ 
+  //position: relative;
+  bottom: 4rem;
+  width: 85%;
+  height: auto;
+}
+
+#cover {
+  transform: translateX(20vw);
+  margin-top: -14vh;
+  width: 60%;
+  position: absolute;
+  z-index: 100;
+}
+
+#music-box {
+  width: 100%;
+  margin-top: 30vh;
+}
+
+#music-info {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 2rem;
+}
+
+#title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: $light_grey;
+  position: absolute;
+  transform: translateY(-55vh);
+  margin-left: 10vw;
+  z-index: 150;
+  
+  
+}
+
+
+#albumName{
+
+    font-size: 1.8em;
+    color: $light_grey;
+    position: absolute;
+    transform: translateY(-50vh);
+    margin-left: 10vw;
+    z-index: 150;
+}
+
+#progress-container {
+  height: 18px;
+  width: 100%;
+  background-color: white ;
+  margin: 2rem 0 1rem;
+  cursor: pointer;
+ 
+}
+
+#progress {
+  background-color: $buttonForm;
+  width: 0%;
+  height: inherit;
+  border-radius: inherit;
+  transition: width 100ms ease-in;
+}
+
+#timer-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  color: $player_grey;
+}
+
+#control-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-around;
+  
+}
+
+#pause {
+  display: none;
+}
+
+
+#purpleSquare {
+    left: 0;
+    top: 0;
+    height: 52vh;
+    width: 80vw;
+    border-radius: 0 0 25px 0;
+    background: $rectangle no-repeat url('../images/dotsv2_transparent.svg'); 
+    background-position: 115% 99%;
+    position: absolute;
+    z-index: 50;
+}
+
+
+#back {
+  position: absolute;
+  z-index: 200;
+  transform: translateX(-47vw);
+  margin-top: -54.5vh;
+}
+
+#timer {
+  cursor: pointer;
+}
